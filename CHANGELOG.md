@@ -9,3 +9,7 @@ fixing some bugs
 ## 0.0.4
 
 fixing some bugs
+
+## 0.0.5
+
+fixing some bugs
