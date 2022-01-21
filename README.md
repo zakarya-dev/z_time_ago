@@ -39,6 +39,4 @@ String result = ZTimeAgo().getTimeAgo(
     date: DateTime.parse('2021-01-15 20:50:36.977'),
     language: Language.kurdish,
 )
-```# z_time_ago
-# z_time_ago
-# z_time_ago
+```

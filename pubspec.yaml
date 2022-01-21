@@ -1,6 +1,6 @@
 name: z_time_ago
 description: A flutter package to get duration between current date and a given date for kurdish, arabic and english.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/zakarya0/z_time_ago
 
 environment:
