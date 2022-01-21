@@ -40,3 +40,4 @@ String result = ZTimeAgo().getTimeAgo(
     language: Language.kurdish,
 )
 ```# z_time_ago
+# z_time_ago
