@@ -11,30 +11,32 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+This package is used to get time duration from now and given time for kurdish, arabic and english, simple and easy to use.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Changes date to time ago.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+add package to your pubspec.yaml file
+```yaml
+    dependecies:
+        flutter:
+            sdk: flutter
+        z_time_ago:
+```
+
+import it
+```dart
+import 'package:z_time_ago/z_time_ago.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
 ```dart
-const like = 'sample';
+String result = ZTimeAgo().getTimeAgo(
+    date: DateTime.parse('2021-01-15 20:50:36.977'),
+    language: Language.kurdish,
+)
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
-# z_time_ago
