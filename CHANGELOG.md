@@ -13,3 +13,7 @@ fixing some bugs
 ## 0.0.5
 
 fixing some bugs
+
+## 0.0.6
+
+date parameter accepts timestamps(String) not just DateTime

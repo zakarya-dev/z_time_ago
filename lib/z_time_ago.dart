@@ -11,12 +11,21 @@ enum Language {
 
 class ZTimeAgo {
   String getTimeAgo({
-    required DateTime date,
+    required dynamic date,
     Language language = Language.kurdish,
   }) {
+    DateTime inputDate = DateTime.now();
+    if (date.runtimeType == String) {
+      inputDate = DateTime.parse(date);
+    } else if (date.runtimeType == DateTime) {
+      inputDate = date;
+    } else {
+      debugPrint('Enter a valid type');
+      return '';
+    }
     String message = '';
     var currentDate = DateTime.now();
-    var difference = currentDate.difference(date);
+    var difference = currentDate.difference(inputDate);
     Map data = Data().getData(language);
     if (difference.inSeconds < 0) {
       debugPrint('the date you entered is after current date');
@@ -77,7 +86,7 @@ class ZTimeAgo {
       } else if (difference.inDays >= 365 && difference.inDays < 731) {
         message = data['keys']['aYearAgo'];
       } else {
-        String finalDate = date.toString().split(' ')[0];
+        String finalDate = inputDate.toString().split(' ')[0];
         var splittedDate = finalDate.split('-');
         String day = '';
         String month = '';
