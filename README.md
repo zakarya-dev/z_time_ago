@@ -118,6 +118,8 @@ String result = ZTimeAgo().getTimeAgo(
         language: Language.english,
     ),
 ```
-![img](assets/img/englishNow.png)<br><br><br>
+![img](assets/img/englishNow.png)<br><br><br><br>
 
-In case of having any issues, feel free to open an <a href="https://github.com/zakarya0/z_time_ago/issues/new">issue</a>
+## Bugs And Issues
+
+In case of having any issues, feel free to open an <a href="https://github.com/zakarya0/z_time_ago/issues/new">issue</a>, & if you think that the library needs a feature let me know by adding it in this <a href="https://github.com/zakarya0/z_time_ago/issues/new?template=feature.md">link</a>
