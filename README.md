@@ -4,7 +4,7 @@ This package is used to get time duration from now and given time for kurdish, a
 
 🌟 Changes date to time ago.
 
-<a href="https://github.com/zakarya0/z_time_ago/raw/main/assets/img/all.png"><br><br>
+<img src="https://github.com/zakarya0/z_time_ago/raw/main/assets/img/all.png"><br><br>
 
 ## Getting started
 
