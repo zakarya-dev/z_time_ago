@@ -17,3 +17,7 @@ fixing some bugs
 ## 0.0.6
 
 date parameter accepts timestamps(String) not just DateTime
+
+## 0.0.7
+
+fixing some bugs

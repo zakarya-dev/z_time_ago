@@ -22,6 +22,7 @@ Run this command in terminal
 ```dart
 flutter pub add z_time_ago
 ```
+<br>
 
 ## Import it
 
