@@ -2,7 +2,7 @@ This package is used to get time duration from now and given time for kurdish, a
 
 ## Features
 
-Changes date to time ago.
+🌟 Changes date to time ago.
 
 ## Getting started
 
@@ -26,15 +26,14 @@ flutter pub add z_time_ago
 
 ## Import it
 
-import it
 ```dart
 import 'package:z_time_ago/z_time_ago.dart';
 ```
-<br><br><br><br>
+<br><br><br>
 
 ## Usage
 
-## With DateTime Type
+With DateTime Type
 
 ```dart
 String result = ZTimeAgo().getTimeAgo(
@@ -42,9 +41,9 @@ String result = ZTimeAgo().getTimeAgo(
     language: Language.kurdish,
 );
 ```
-<br>
+<br><br>
 
-## With String Type
+With String Type
 
 ```dart
 String result = ZTimeAgo().getTimeAgo(
@@ -56,73 +55,73 @@ String result = ZTimeAgo().getTimeAgo(
 
 ## More Examples
 ```dart
-    ZTimeAgo().getTimeAgo(
-        date: '2022-01-28 11:46:54.897839',
-    ),
+ZTimeAgo().getTimeAgo(
+    date: '2022-01-28 11:46:54.897839',
+),
 ```
-![img](assets/img/kurdishMonthAgo.png)<br><br><br>
+![img](assets/img/kurdishMonthAgo.png)<br><br>
 
 ```dart
-    ZTimeAgo().getTimeAgo(
-        date: '2022-01-28 11:46:54.897839',
-        language: Language.arabic,
-    ),
+ZTimeAgo().getTimeAgo(
+    date: '2022-01-28 11:46:54.897839',
+    language: Language.arabic,
+),
 ```
-![img](assets/img/arabicMonthAgo.png)<br><br><br>
+![img](assets/img/arabicMonthAgo.png)<br><br>
 
 ```dart
-    ZTimeAgo().getTimeAgo(
-        date: '2022-03-01 08:46:54.897839',
-    ),
+ZTimeAgo().getTimeAgo(
+    date: '2022-03-01 08:46:54.897839',
+),
 ```
-![img](assets/img/englishMonthAgo.png)<br><br><br>
+![img](assets/img/englishMonthAgo.png)<br><br>
 
 ```dart
-    ZTimeAgo().getTimeAgo(
-        date: '2022-03-01 08:46:54.897839',
-        language: Language.kurdish,
-    ),
+ZTimeAgo().getTimeAgo(
+    date: '2022-03-01 08:46:54.897839',
+    language: Language.kurdish,
+),
 ```
-![img](assets/img/kurdishHoursAgo.png)<br><br><br>
+![img](assets/img/kurdishHoursAgo.png)<br><br>
 
 ```dart
-    ZTimeAgo().getTimeAgo(
-        date: '2022-03-01 08:46:54.897839',
-        language: Language.arabic,
-    ),
+ZTimeAgo().getTimeAgo(
+    date: '2022-03-01 08:46:54.897839',
+    language: Language.arabic,
+),
 ```
-![img](assets/img/arabicHoursAgo.png)<br><br><br>
+![img](assets/img/arabicHoursAgo.png)<br><br>
 
 ```dart
-    ZTimeAgo().getTimeAgo(
-        date: '2022-03-01 08:46:54.897839',
-        language: Language.english,
-    ),
+ZTimeAgo().getTimeAgo(
+    date: '2022-03-01 08:46:54.897839',
+    language: Language.english,
+),
 ```
-![img](assets/img/englishHoursAgo.png)<br><br><br>
+![img](assets/img/englishHoursAgo.png)<br><br>
 
 ```dart
-    ZTimeAgo().getTimeAgo(
-        date: DateTime.now(),
-    ),
+ZTimeAgo().getTimeAgo(
+    date: DateTime.now(),
+),
 ```
-![img](assets/img/kurdishNow.png)<br><br><br>
+![img](assets/img/kurdishNow.png)<br><br>
 
 ```dart
-    ZTimeAgo().getTimeAgo(
-        date: DateTime.now(),
-        language: Language.arabic,
-    ),
+ZTimeAgo().getTimeAgo(
+    date: DateTime.now(),
+    language: Language.arabic,
+),
 ```
-![img](assets/img/arabicNow.png)<br><br><br>
+![img](assets/img/arabicNow.png)<br><br>
 
 ```dart
-    ZTimeAgo().getTimeAgo(
-        date: DateTime.now(),
-        language: Language.english,
-    ),
+ZTimeAgo().getTimeAgo(
+    date: DateTime.now(),
+    language: Language.english,
+),
 ```
-![img](assets/img/englishNow.png)<br><br><br><br>
+![img](assets/img/englishNow.png)<br><br><br>
 
 ## Bugs And Issues
 
