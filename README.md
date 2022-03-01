@@ -4,9 +4,11 @@ This package is used to get time duration from now and given time for kurdish, a
 
 🌟 Changes date to time ago.
 
+![img](assets/img/all.png)<br><br>
+
 ## Getting started
 
-## Depend on it
+Depend on it
 
 add package to your pubspec.yaml file
 ```yaml
@@ -16,7 +18,7 @@ add package to your pubspec.yaml file
         z_time_ago: any
 ```
 
-## Or
+Or
 
 Run this command in terminal
 ```dart
@@ -24,7 +26,7 @@ flutter pub add z_time_ago
 ```
 <br>
 
-## Import it
+Import it
 
 ```dart
 import 'package:z_time_ago/z_time_ago.dart';
