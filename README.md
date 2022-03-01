@@ -61,7 +61,7 @@ ZTimeAgo().getTimeAgo(
     date: '2022-01-28 11:46:54.897839',
 ),
 ```
-![img](assets/kurdishMonthAgo.png)<br><br>
+<img src="https://github.com/zakarya0/z_time_ago/raw/main/assets/kurdishMonthAgo.png"><br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
@@ -69,14 +69,14 @@ ZTimeAgo().getTimeAgo(
     language: Language.arabic,
 ),
 ```
-![img](assets/arabicMonthAgo.png)<br><br>
+<img src="https://github.com/zakarya0/z_time_ago/raw/main/assets/arabicMonthAgo.png"><br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
     date: '2022-03-01 08:46:54.897839',
 ),
 ```
-![img](assets/englishMonthAgo.png)<br><br>
+<img src="https://github.com/zakarya0/z_time_ago/raw/main/assets/englishMonthAgo.png"><br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
@@ -84,7 +84,7 @@ ZTimeAgo().getTimeAgo(
     language: Language.kurdish,
 ),
 ```
-![img](assets/kurdishHoursAgo.png)<br><br>
+<img src="https://github.com/zakarya0/z_time_ago/raw/main/assets/kurdishHoursAgo.png"><br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
@@ -92,7 +92,7 @@ ZTimeAgo().getTimeAgo(
     language: Language.arabic,
 ),
 ```
-![img](assets/arabicHoursAgo.png)<br><br>
+<img src="https://github.com/zakarya0/z_time_ago/raw/main/assets/arabicHoursAgo.png"><br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
@@ -100,14 +100,14 @@ ZTimeAgo().getTimeAgo(
     language: Language.english,
 ),
 ```
-![img](assets/englishHoursAgo.png)<br><br>
+<img src="https://github.com/zakarya0/z_time_ago/raw/main/assets/englishHoursAgo.png"><br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
     date: DateTime.now(),
 ),
 ```
-![img](assets/kurdishNow.png)<br><br>
+<img src="https://github.com/zakarya0/z_time_ago/raw/main/assets/kurdishNow.png"><br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
@@ -115,7 +115,7 @@ ZTimeAgo().getTimeAgo(
     language: Language.arabic,
 ),
 ```
-![img](assets/arabicNow.png)<br><br>
+<img src="https://github.com/zakarya0/z_time_ago/raw/main/assets/arabicNow.png"><br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
@@ -123,7 +123,7 @@ ZTimeAgo().getTimeAgo(
     language: Language.english,
 ),
 ```
-![img](assets/englishNow.png)<br><br><br>
+<img src="https://github.com/zakarya0/z_time_ago/raw/main/assets/englishNow.png"><br><br>
 
 ## Bugs And Issues
 
