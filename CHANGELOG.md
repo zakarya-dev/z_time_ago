@@ -25,3 +25,11 @@ fixing some bugs
 ## 0.0.8
 
 fixing some bugs
+
+## 0.0.9
+
+fixing some bugs
+
+## 0.1.0
+
+fixing some bugs
