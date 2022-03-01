@@ -4,7 +4,7 @@ This package is used to get time duration from now and given time for kurdish, a
 
 🌟 Changes date to time ago.
 
-<img src="https://github.com/zakarya0/z_time_ago/raw/main/assets/img/all.png"><br><br>
+<img src="https://github.com/zakarya0/z_time_ago/raw/main/assets/all.png"><br><br>
 
 ## Getting started
 
@@ -61,7 +61,7 @@ ZTimeAgo().getTimeAgo(
     date: '2022-01-28 11:46:54.897839',
 ),
 ```
-![img](assets/img/kurdishMonthAgo.png)<br><br>
+![img](assets/kurdishMonthAgo.png)<br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
@@ -69,14 +69,14 @@ ZTimeAgo().getTimeAgo(
     language: Language.arabic,
 ),
 ```
-![img](assets/img/arabicMonthAgo.png)<br><br>
+![img](assets/arabicMonthAgo.png)<br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
     date: '2022-03-01 08:46:54.897839',
 ),
 ```
-![img](assets/img/englishMonthAgo.png)<br><br>
+![img](assets/englishMonthAgo.png)<br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
@@ -84,7 +84,7 @@ ZTimeAgo().getTimeAgo(
     language: Language.kurdish,
 ),
 ```
-![img](assets/img/kurdishHoursAgo.png)<br><br>
+![img](assets/kurdishHoursAgo.png)<br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
@@ -92,7 +92,7 @@ ZTimeAgo().getTimeAgo(
     language: Language.arabic,
 ),
 ```
-![img](assets/img/arabicHoursAgo.png)<br><br>
+![img](assets/arabicHoursAgo.png)<br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
@@ -100,14 +100,14 @@ ZTimeAgo().getTimeAgo(
     language: Language.english,
 ),
 ```
-![img](assets/img/englishHoursAgo.png)<br><br>
+![img](assets/englishHoursAgo.png)<br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
     date: DateTime.now(),
 ),
 ```
-![img](assets/img/kurdishNow.png)<br><br>
+![img](assets/kurdishNow.png)<br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
@@ -115,7 +115,7 @@ ZTimeAgo().getTimeAgo(
     language: Language.arabic,
 ),
 ```
-![img](assets/img/arabicNow.png)<br><br>
+![img](assets/arabicNow.png)<br><br>
 
 ```dart
 ZTimeAgo().getTimeAgo(
@@ -123,7 +123,7 @@ ZTimeAgo().getTimeAgo(
     language: Language.english,
 ),
 ```
-![img](assets/img/englishNow.png)<br><br><br>
+![img](assets/englishNow.png)<br><br><br>
 
 ## Bugs And Issues
 
