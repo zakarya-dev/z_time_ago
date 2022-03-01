@@ -29,6 +29,7 @@ import it
 ```dart
 import 'package:z_time_ago/z_time_ago.dart';
 ```
+<br><br><br><br>
 
 ## Usage
 
@@ -40,6 +41,7 @@ String result = ZTimeAgo().getTimeAgo(
     language: Language.kurdish,
 );
 ```
+<br>
 
 ## With String Type
 
@@ -49,6 +51,7 @@ String result = ZTimeAgo().getTimeAgo(
     language: Language.kurdish,
 );
 ```
+<br><br><br><br>
 
 ## More Examples
 ```dart
@@ -56,7 +59,7 @@ String result = ZTimeAgo().getTimeAgo(
         date: '2022-01-28 11:46:54.897839',
     ),
 ```
-![img](assets/img/kurdishMonthAgo.png)<br><br>
+![img](assets/img/kurdishMonthAgo.png)<br><br><br>
 
 ```dart
     ZTimeAgo().getTimeAgo(
@@ -64,14 +67,14 @@ String result = ZTimeAgo().getTimeAgo(
         language: Language.arabic,
     ),
 ```
-![img](assets/img/arabicMonthAgo.png)<br><br>
+![img](assets/img/arabicMonthAgo.png)<br><br><br>
 
 ```dart
     ZTimeAgo().getTimeAgo(
         date: '2022-03-01 08:46:54.897839',
     ),
 ```
-![img](assets/img/englishMonthAgo.png)<br><br>
+![img](assets/img/englishMonthAgo.png)<br><br><br>
 
 ```dart
     ZTimeAgo().getTimeAgo(
@@ -79,7 +82,7 @@ String result = ZTimeAgo().getTimeAgo(
         language: Language.kurdish,
     ),
 ```
-![img](assets/img/kurdishHoursAgo.png)<br><br>
+![img](assets/img/kurdishHoursAgo.png)<br><br><br>
 
 ```dart
     ZTimeAgo().getTimeAgo(
@@ -87,7 +90,7 @@ String result = ZTimeAgo().getTimeAgo(
         language: Language.arabic,
     ),
 ```
-![img](assets/img/arabicHoursAgo.png)<br><br>
+![img](assets/img/arabicHoursAgo.png)<br><br><br>
 
 ```dart
     ZTimeAgo().getTimeAgo(
@@ -95,14 +98,14 @@ String result = ZTimeAgo().getTimeAgo(
         language: Language.english,
     ),
 ```
-![img](assets/img/englishHoursAgo.png)<br><br>
+![img](assets/img/englishHoursAgo.png)<br><br><br>
 
 ```dart
     ZTimeAgo().getTimeAgo(
         date: DateTime.now(),
     ),
 ```
-![img](assets/img/kurdishNow.png)<br><br>
+![img](assets/img/kurdishNow.png)<br><br><br>
 
 ```dart
     ZTimeAgo().getTimeAgo(
@@ -110,7 +113,7 @@ String result = ZTimeAgo().getTimeAgo(
         language: Language.arabic,
     ),
 ```
-![img](assets/img/arabicNow.png)<br><br>
+![img](assets/img/arabicNow.png)<br><br><br>
 
 ```dart
     ZTimeAgo().getTimeAgo(
