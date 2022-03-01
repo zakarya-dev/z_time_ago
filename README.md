@@ -6,7 +6,7 @@ Changes date to time ago.
 
 ## Getting started
 
-## Install it
+## Depend on it
 
 add package to your pubspec.yaml file
 ```yaml
@@ -49,3 +49,75 @@ String result = ZTimeAgo().getTimeAgo(
     language: Language.kurdish,
 );
 ```
+
+## More Examples
+```dart
+    ZTimeAgo().getTimeAgo(
+        date: '2022-01-28 11:46:54.897839',
+    ),
+```
+![img](assets/img/kurdishMonthAgo.png)<br><br>
+
+```dart
+    ZTimeAgo().getTimeAgo(
+        date: '2022-01-28 11:46:54.897839',
+        language: Language.arabic,
+    ),
+```
+![img](assets/img/arabicMonthAgo.png)<br><br>
+
+```dart
+    ZTimeAgo().getTimeAgo(
+        date: '2022-03-01 08:46:54.897839',
+    ),
+```
+![img](assets/img/englishMonthAgo.png)<br><br>
+
+```dart
+    ZTimeAgo().getTimeAgo(
+        date: '2022-03-01 08:46:54.897839',
+        language: Language.kurdish,
+    ),
+```
+![img](assets/img/kurdishHoursAgo.png)<br><br>
+
+```dart
+    ZTimeAgo().getTimeAgo(
+        date: '2022-03-01 08:46:54.897839',
+        language: Language.arabic,
+    ),
+```
+![img](assets/img/arabicHoursAgo.png)<br><br>
+
+```dart
+    ZTimeAgo().getTimeAgo(
+        date: '2022-03-01 08:46:54.897839',
+        language: Language.english,
+    ),
+```
+![img](assets/img/englishHoursAgo.png)<br><br>
+
+```dart
+    ZTimeAgo().getTimeAgo(
+        date: DateTime.now(),
+    ),
+```
+![img](assets/img/kurdishNow.png)<br><br>
+
+```dart
+    ZTimeAgo().getTimeAgo(
+        date: DateTime.now(),
+        language: Language.arabic,
+    ),
+```
+![img](assets/img/arabicNow.png)<br><br>
+
+```dart
+    ZTimeAgo().getTimeAgo(
+        date: DateTime.now(),
+        language: Language.english,
+    ),
+```
+![img](assets/img/englishNow.png)<br><br><br>
+
+In case of having any issues, feel free to open an <a href="https://github.com/zakarya0/z_time_ago/issues/new">issue</a>
